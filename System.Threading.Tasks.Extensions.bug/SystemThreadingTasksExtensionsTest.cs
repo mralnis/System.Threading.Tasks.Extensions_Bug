@@ -10,8 +10,10 @@ namespace System.Threading.Tasks.Extensions.bug
         [TestMethod]
         public void MethodNotFound()
         {
-            var _result = new HttpOperationResponse<object>();
-            _result.Request = new HttpRequestMessage();
+            var httpOperationResponse = new HttpOperationResponse<object>();
+            httpOperationResponse.Request = new HttpRequestMessage();
+
+            Assert.IsTrue(true);
         }
     }
 }
