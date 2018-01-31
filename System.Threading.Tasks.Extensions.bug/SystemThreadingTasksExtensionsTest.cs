@@ -5,7 +5,7 @@ using System.Net.Http;
 namespace System.Threading.Tasks.Extensions.bug
 {
     [TestClass]
-    public class UnitTest1
+    public class SystemThreadingTasksExtensionsTest
     {
         [TestMethod]
         public void MethodNotFound()
